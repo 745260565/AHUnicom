@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 2.5.0'
+pod 'SVProgressHUD', '~> 1.0'
+pod 'FMDB'
+pod 'UMengAnalytics'
+pod 'pop', '~> 1.0.7'
+pod 'SDAutoLayout', '~> 1.31'
