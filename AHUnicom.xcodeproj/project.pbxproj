@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7AEB6E121C8EB5DD009E931F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB6E111C8EB5DD009E931F /* AppDelegate.swift */; };
 		7AEB6E141C8EB5DD009E931F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB6E131C8EB5DD009E931F /* MasterViewController.swift */; };
-		7AEB6E161C8EB5DD009E931F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB6E151C8EB5DD009E931F /* DetailViewController.swift */; };
 		7AEB6E191C8EB5DE009E931F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEB6E171C8EB5DE009E931F /* Main.storyboard */; };
 		7AEB6E1B1C8EB5DE009E931F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEB6E1A1C8EB5DE009E931F /* Assets.xcassets */; };
 		7AEB6E1E1C8EB5DE009E931F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEB6E1C1C8EB5DE009E931F /* LaunchScreen.storyboard */; };
@@ -41,7 +40,6 @@
 		7AEB6E0E1C8EB5DD009E931F /* AHUnicom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHUnicom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEB6E111C8EB5DD009E931F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AEB6E131C8EB5DD009E931F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		7AEB6E151C8EB5DD009E931F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7AEB6E181C8EB5DE009E931F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AEB6E1A1C8EB5DE009E931F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEB6E1D1C8EB5DE009E931F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			children = (
 				7AEB6E111C8EB5DD009E931F /* AppDelegate.swift */,
 				7AEB6E131C8EB5DD009E931F /* MasterViewController.swift */,
-				7AEB6E151C8EB5DD009E931F /* DetailViewController.swift */,
 				7AEB6E171C8EB5DE009E931F /* Main.storyboard */,
 				7AEB6E1A1C8EB5DE009E931F /* Assets.xcassets */,
 				7AEB6E1C1C8EB5DE009E931F /* LaunchScreen.storyboard */,
@@ -334,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AEB6E161C8EB5DD009E931F /* DetailViewController.swift in Sources */,
 				7AEB6E141C8EB5DD009E931F /* MasterViewController.swift in Sources */,
 				7AEB6E121C8EB5DD009E931F /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +479,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = runsdata.AHUnicom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -495,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = runsdata.AHUnicom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
